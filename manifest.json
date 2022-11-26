@@ -1,0 +1,21 @@
+{
+	"manifest_version": 3,
+	"name": "Random v4 UUID",
+	"description": "Click button and a new random UUID is in the clipboard",
+	"version": "1.0",
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "clipboardWrite"
+  ],
+  "host_permissions": [
+    "*://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+	"action": {
+ 		"default_icon": "image.png",
+ 		"default_title": "Random v4 UUID"
+ 	}
+}
